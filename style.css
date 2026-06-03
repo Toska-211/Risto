@@ -202,6 +202,8 @@ nav ul {
   .mediaTesto figure img {
     width: 100%;
     vertical-align: text-bottom;
+    height: 100%;
+    object-fit: cover;
   }
   /* @media screen and (width: 600px) {
   .mediaTesto figure img {
@@ -246,6 +248,7 @@ nav ul {
     background-color: var(--bg-yellow);
     flex-direction: row-reverse;
     scroll-margin-top: 85px;
+    align-items: stretch;
   }
   @media screen and (max-width: 600px) {
     #chiSiamo {
