@@ -2,8 +2,10 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
 }
+body {
+  overflow-x: hidden;
+  }
 :root {
   --txt-white: #fff;
   --txt-purple: #874b52;
@@ -257,7 +259,7 @@ nav ul {
   }
   #chiSiamoTesto {
     text-align: left;
-    padding: 0 100px 0 300px;
+    padding: 0 5% 0 8%;
   }
 
   @media screen and (max-width: 600px) {
@@ -330,7 +332,7 @@ nav ul {
 
   #storiaTesto {
     text-align: left;
-    padding: 30px 300px 0 100px;
+    padding: 30px 8% 0 5%;
   }
   #storiaTesto span {
     color: var(--bg-orange);
@@ -382,7 +384,7 @@ nav ul {
   }
 
   #ristorazione details {
-    padding: 20px 500px;
+    padding: 20px 5%;
     width: 100%;
   }
   @media screen and (max-width: 600px) {
@@ -420,13 +422,14 @@ nav ul {
   }
 
   #ristorazione p {
-    padding: 30px 120px;
+    padding: 30px 5%;
     margin-top: 10px;
     text-align: left;
     background-color: var(--bg-peach);
     font-size: 16px;
     font-weight: 450;
-    width: 830px;
+    width: 100%;
+    max-width: 830px;
   }
   @media screen and (max-width: 600px) {
     #ristorazione p {
@@ -511,7 +514,7 @@ nav ul {
     }
   }
   .menu {
-    padding: 20px 500px;
+    padding: 20px 5%;
   }
   @media screen and (max-width: 600px) {
     .menu {
@@ -628,7 +631,7 @@ nav ul {
     justify-content: center;
     width: 100%;
     gap: 50px;
-    padding: 0 250px;
+    padding: 0 5%;
   }
   #via,
   #campi {
