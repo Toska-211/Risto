@@ -199,6 +199,10 @@ nav ul {
       flex-basis: 100%; /*impostandolo al 100% mandiamo una box sopra e una sotto */
     }
   }
+  
+  .mediaTesto figure {
+    display: flex;
+  }
   .mediaTesto figure img {
     width: 100%;
     vertical-align: text-bottom;
@@ -325,6 +329,7 @@ nav ul {
 
   #storia {
     background-color: var(--bg-gray);
+    align-items: stretch;
   }
 
   #storiaTesto h2 {
