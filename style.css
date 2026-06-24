@@ -413,7 +413,7 @@ nav ul {
     background-color: var(--bg-peach);
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
-    width: 830px;
+    width: 100%;
     /* padding: 0; */
   }
   @media screen and (max-width: 600px) {
