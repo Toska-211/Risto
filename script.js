@@ -11,60 +11,6 @@ function createMobileMenu() {
         <span></span>
         <span></span>
     `;
-  hamburger.style.cssText = `
-        display: none;
-        background: none;
-        border: none;
-        flex-direction: column;
-        gap: 4px;
-        padding: 10px;
-        cursor: pointer;
-    `;
-
-  // Stile per le linee dell'hamburger
-  const style = document.createElement("style");
-  style.textContent = `
-        #hamburger span {
-            width: 25px;
-            height: 3px;
-            background-color: var(--txt-purple);
-            transition: 0.3s;
-        }
-        #hamburger.active span:nth-child(1) {
-            transform: rotate(45deg) translate(5px, 5px);
-        }
-        #hamburger.active span:nth-child(2) {
-            opacity: 0;
-        }
-        #hamburger.active span:nth-child(3) {
-            transform: rotate(-45deg) translate(7px, -6px);
-        }
-        @media screen and (max-width: 600px) {
-            #hamburger { display: flex !important; }
-            nav { 
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                width: 100%;
-                background: white;
-                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-                z-index: 1000;
-            }
-            nav.active { display: block !important; }
-            #menu {
-                flex-direction: column;
-                gap: 0;
-                padding: 20px 0;
-            }
-            #menu li {
-                padding: 10px 20px;
-                width: 100%;
-                text-align: center;
-            }
-        }
-    `;
-  document.head.appendChild(style);
 
   // Inserisci l'hamburger nell'header
   header.appendChild(hamburger);
