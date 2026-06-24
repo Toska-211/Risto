@@ -418,7 +418,8 @@ nav ul {
   }
   @media screen and (max-width: 600px) {
     #ristorazione summary {
-      width: 570px;
+      width: 100%;
+      max-width: 570px;
       padding: 10px 0;
     }
   }
@@ -442,7 +443,8 @@ nav ul {
   @media screen and (max-width: 600px) {
     #ristorazione p {
       padding: 30px 60px;
-      width: 550px;
+      width: 100%;
+      max-width: 550px;
     }
   }
   #ristorazione h3 {
@@ -496,6 +498,7 @@ nav ul {
   #percheSceglierci {
     text-align: center;
     background-color: var(--bg-gray);
+    padding-bottom: 50px;
   }
   #percheSceglierci h2 {
     text-transform: uppercase;
@@ -572,7 +575,7 @@ nav ul {
   }
   @media screen and (max-width: 600px) {
     #percheSceglierci .text {
-      font-size: 8px;
+      font-size: 14px;
       padding: 30px 50px;
       max-width: 98vw;
       margin: 15px;
