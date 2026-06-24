@@ -266,7 +266,7 @@ nav ul {
   }
   #chiSiamoTesto {
     text-align: left;
-    padding: 15px 5% 0 8%;
+    padding: 50px 5% 50px 8%;
   }
 
   @media screen and (max-width: 600px) {
@@ -498,14 +498,14 @@ nav ul {
   #percheSceglierci {
     text-align: center;
     background-color: var(--bg-gray);
-    padding-top: 15px;
+    padding-top: 50px;
     padding-bottom: 50px;
   }
   #percheSceglierci h2 {
     text-transform: uppercase;
     color: var(--txt-purple);
     font-size: 1.5em;
-    margin-top: 50px;
+    margin-top: 0;
     margin-bottom: 30px;
     scroll-margin-top: 120px;
   }
