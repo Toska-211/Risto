@@ -239,7 +239,7 @@ function initFormValidation() {
 
   function clearError(e) {
     const field = e.target;
-    field.style.borderColor = "#dc582a";
+    field.style.borderColor = "";
 
     const errorMessage = field.parentNode.querySelector(".error-message");
     if (errorMessage) errorMessage.remove();
@@ -340,6 +340,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initCounterAnimation();
   initFormValidation();
   initScrollAnimations();
+  addServiceTooltips();
 
   console.log("🍽️ ARMA website loaded successfully!");
 });
@@ -381,7 +382,3 @@ function addServiceTooltips() {
   });
 }
 
-// Aggiungi i tooltip dopo il caricamento
-document.addEventListener("DOMContentLoaded", () => {
-  setTimeout(addServiceTooltips, 100);
-});
