@@ -422,7 +422,7 @@ nav ul {
   #ristorazione summary {
     margin-bottom: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 30px;
     cursor: pointer;
@@ -550,7 +550,7 @@ nav ul {
   }
   .menu summary {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 30px;
     cursor: pointer;
